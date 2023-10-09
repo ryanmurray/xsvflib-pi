@@ -54,10 +54,10 @@
 
 #define GPIO_IN0   *(gpio+13)  // Reads GPIO input bits 0-31
 
-#define TDI_PIN 24
-#define TMS_PIN 25
-#define TCK_PIN 22
-#define TDO_PIN 23
+#define TDI_PIN 15
+#define TMS_PIN 13
+#define TCK_PIN 11
+#define TDO_PIN 7
 
 int  mem_fd;
 unsigned char *gpio_mem, *gpio_map;
